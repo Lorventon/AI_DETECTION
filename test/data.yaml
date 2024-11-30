@@ -1,0 +1,20 @@
+train: dataset/images/train
+val: dataset/images/val
+
+names:
+  0: bumper
+  1: fog lights
+  2: radiator
+  3: license plate
+  4: emblem
+  5: hood
+  6: fender
+  7: windshield
+  8: roof
+  9: back fender
+  10: side mirrors
+  11: door handle
+  12: tires
+  13: wheel
+  14: back door
+  15: front door
