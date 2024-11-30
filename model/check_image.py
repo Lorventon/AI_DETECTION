@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 
-model = YOLO('runs/segment/car_segmentation8/weights/best.pt')
+model = YOLO('../runs/segment/car_segmentation8/weights/best.pt')
 
 # img = cv2.imread('dataset/images/train/IMG_9209.jpg')
 # TODO: Убрать абсолютный путь
-img = cv2.imread('D:/Projects/HackInHome2024/model/dataset/train/images/IMG_9225.jpg')
+img = cv2.imread('D:/Projects/HackInHome2024/model/test.png')
 
 print(img.shape)
 
