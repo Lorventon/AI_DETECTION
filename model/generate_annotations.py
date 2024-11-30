@@ -11,32 +11,35 @@ LABEL_FOLDER = 'dataset/labels/train'
 os.makedirs(LABEL_FOLDER, exist_ok=True)
 
 COLOR_TO_CLASS = {
-    (0, 153, 150): 0,      # bumper
-    (178, 188, 49): 1,     # fog_lights
-    (189, 188, 186): 2,    # radiator
-    (183, 211, 134): 3,    # license_plate
-    (231, 3, 121): 4,      # emblem
-    (201, 171, 211): 5,    # hood
-    (220, 195, 225): 6,    # fender
-    (155, 216, 221): 7,    # windshield
-    (137, 79, 116): 8,     # roof
-    (248, 173, 192): 9,    # back_fender
-    (235, 92, 139): 10,    # side_mirrors
-    (148, 35, 110): 11,    # door_handle
-    (44, 58, 105): 12,     # tires
-    (21, 6, 84): 13,       # wheel
-    (20, 68, 50): 14,      # back_door
-    (0, 135, 97): 15       # front_door
+    (0, 153, 150): 0,  # bumper
+    (178, 188, 49): 1,  # fog_lights
+    (189, 188, 186): 2,  # radiator
+    (183, 211, 134): 3,  # license_plate
+    (231, 3, 121): 4,  # emblem
+    (201, 171, 211): 5,  # hood
+    (220, 195, 225): 6,  # fender
+    (155, 216, 221): 7,  # windshield
+    (137, 79, 116): 8,  # roof
+    (248, 173, 192): 9,  # back_fender
+    (235, 92, 139): 10,  # side_mirrors
+    (148, 35, 110): 11,  # door_handle
+    (44, 58, 105): 12,  # tires
+    (21, 6, 84): 13,  # wheel
+    (20, 68, 50): 14,  # back_door
+    (0, 135, 97): 15  # front_door
 }
+
 
 def resize_image(image, size=(640, 640)):
     return cv2.resize(image, size, interpolation=cv2.INTER_LINEAR)
+
 
 def get_color_range(color, tolerance=10):
     """Функция для получения диапазона цветов с учётом допуска."""
     lower = np.array([max(0, c - tolerance) for c in color], dtype=np.uint8)
     upper = np.array([min(255, c + tolerance) for c in color], dtype=np.uint8)
     return lower, upper
+
 
 def process_image_and_mask(image_file, mask_file):
     image = cv2.imread(image_file)
@@ -86,6 +89,7 @@ def process_image_and_mask(image_file, mask_file):
         print(f"Файл аннотации сохранен: {label_file}")
     else:
         print(f"Аннотация для {image_file} пуста.")
+
 
 # Проверка файлов в папках
 print("Проверка файлов...")
