@@ -1,0 +1,7 @@
+train: dataset/images/train  # Путь к папке с изображениями для обучения
+val: dataset/images/val      # Путь к папке с изображениями для валидации
+
+nc: 17  # Количество классов
+names: ['bumper', 'fog lights', 'radiator', 'license plate', 'emblem', 'hood', 
+        'fender', 'windshield', 'roof', 'back fender', 'side mirrors', 'door handle', 
+        'tires', 'wheel', 'back door', 'front door']  # Имена классов

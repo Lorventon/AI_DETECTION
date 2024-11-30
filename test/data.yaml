@@ -1,5 +1,6 @@
-train: dataset/images/train
-val: dataset/images/val
+train: D:/Projects/HackInHome2024/test/dataset/images/train  # Путь к папке с изображениями для тренировки
+val: D:/Projects/HackInHome2024/test/dataset/images/val      # Путь к папке с изображениями для валидации
+test: D:/Projects/HackInHome2024/test/dataset/test
 
 names:
   0: bumper
