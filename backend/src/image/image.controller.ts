@@ -13,7 +13,13 @@ export class ImageController {
 
   @UseInterceptors(FileInterceptor('imageFile'))
   @Post('/upload')
-  public uploadFile(@UploadedFile() file: Express.Multer.File): void {
-    this.imageService.setImage(file);
+  public async uploadFile(
+    @UploadedFile() file: Express.Multer.File,
+  ): Promise<any> {
+    const result = await this.imageService.processImage({
+      buffer: file.buffer,
+      originalname: file.originalname,
+    });
+    return result;
   }
 }

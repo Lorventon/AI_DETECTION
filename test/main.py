@@ -1,5 +1,4 @@
 from ultralytics import YOLO
-
 model = YOLO("yolo11n-seg.pt")
 
 # Запуск обучения
@@ -11,4 +10,3 @@ model.train(
     name='car_segmentation',# имя эксперимента
     cache=True              # кэширование данных для ускорения
 )
-
