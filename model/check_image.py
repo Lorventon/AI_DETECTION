@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 
-model = YOLO('../runs/segment/car_segmentation8/weights/best.pt')
+model = YOLO('../runs/segment/car_segmentation2/weights/best.pt')
 
 # img = cv2.imread('dataset/images/train/IMG_9209.jpg')
 # TODO: Убрать абсолютный путь
@@ -39,7 +39,7 @@ for i in range(num_masks):
 
     # Получение класса для текущей маски
     class_index = int(classes[i])
-    class_name = class_names[class_index]
+    class_name = "" # class_names[class_index]
 
     # Добавление подписи к маске
     mask_contours, _ = cv2.findContours(mask_resized.astype(np.uint8), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
