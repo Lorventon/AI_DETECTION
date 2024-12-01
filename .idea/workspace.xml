@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76a6328f-5189-4394-b283-ab240b0ca35b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/output.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/image/image.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/image/image.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/image/image.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/image/image.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/shared/Form/UploadImage/UploadImageForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/shared/Form/UploadImage/UploadImageForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/calc/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/calc/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/calc/calc2.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/calc/calc2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/check_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/check_image.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lorventon/PycharmProjects/HackInHome2024/model/dataset/train/images&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging main",
+    "last_opened_file_path": "C:/Users/Lorventon/PycharmProjects/HackInHome2024/model/dataset/train/images"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lorventon\PycharmProjects\HackInHome2024\model\dataset\train\images" />
