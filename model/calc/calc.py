@@ -4,18 +4,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 import torch
 
-# Параметры, вводимые пользователем
-front_door_area = int(input("Введите физический "))  # Эталонная площадь передней двери (м²)
-torch_width = int(input())  # Ширина факела (м)
-torch_extrusion = int(input())  # Вылет факела за границу элемента (м)
-paint_cost_per_liter = int(input())  # Стоимость 1 литра ЛКМ (в условных единицах)
 
-# Загрузка модели YOLO
-# Загрузка модели с использованием относительного пути
 model = YOLO('../runs/segment/car_segmentation2/weights/best.pt')
 
-# Загрузка изображения с использованием относительного пути
-img = cv2.imread('../dataset/train/images/7958beu-960.jpg')
+
+img = cv2.imread('../dataset/train/images/' + input("Введите название файла фотографии модели в формате (photo.jpg): "))
+
+# Параметры, вводимые пользователем
+front_door_area = float(input("Введите физический размер передней двери: "))  # Эталонная площадь передней двери (м²)
+torch_width = float(input("Введите ширину факела: "))  # Ширина факела (м)
+torch_extrusion = float(input("Введите вылет факела за границы элемента при одном проходе: "))  # Вылет факела за границу элемента (м)
+paint_cost_per_liter = float(input("Введите стоимость 1 литра ЛКМ: "))  # Стоимость 1 литра ЛКМ (в условных единицах)
 
 # Получение результатов сегментации
 results = model(img, imgsz=640, iou=0.4, conf=0.8, verbose=True)
