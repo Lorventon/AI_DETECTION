@@ -8,7 +8,7 @@ import torch
 model = YOLO('../runs/segment/car_segmentation2/weights/best.pt')
 
 
-img = cv2.imread('../dataset/train/images/' + input("Введите название файла фотографии модели в формате (photo.jpg): "))
+img = cv2.imread('../dataset/train/images/' + input("Введите название файла фотографии модели в формате (JPG || JPEG || PNG || ): "))
 
 # Параметры, вводимые пользователем
 front_door_area = float(input("Введите физический размер передней двери: "))  # Эталонная площадь передней двери (м²)
