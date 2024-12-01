@@ -100,3 +100,10 @@ def estimate_paint_costs():
         paint_cost_per_liter=paint_cost_per_liter,
         img=img
     ), labeled_image
+
+json_file, labeled_image = estimate_paint_costs()
+
+plt.figure(figsize=(10, 10))
+plt.imshow(labeled_image)
+plt.axis('off')
+plt.show()
