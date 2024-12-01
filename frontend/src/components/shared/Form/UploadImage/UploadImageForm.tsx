@@ -49,7 +49,7 @@ export const UploadImageForm: FC = () => {
     formData.append("imageFile", file);
 
     try {
-      const responce = await fetch("http://localhost:3200/api/upload", {
+      const responce = await fetch("http://backend-1:3001/api/upload", {
         method: "POST",
         body: formData,
       });

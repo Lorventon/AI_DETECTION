@@ -16,10 +16,14 @@ export class ImageController {
   public async uploadFile(
     @UploadedFile() file: Express.Multer.File,
   ): Promise<any> {
-    const result = await this.imageService.processImage({
-      buffer: file.buffer,
-      originalname: file.originalname,
-    });
+    const params = {};  // Пример параметра, который может быть передан в функцию
+    const result = await this.imageService.processImage(
+      {
+        buffer: file.buffer,
+        originalname: file.originalname,
+      },
+      params,  // Передача второго параметра
+    );
     console.log(result);
     return result;
   }

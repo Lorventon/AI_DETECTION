@@ -10,23 +10,21 @@ services:
   backend:
     build:
       context: ./backend
-      dockerfile: Dockerfile
+    container_name: nestjs-backend
     ports:
       - "3001:3001"
-    restart: always
+    environment:
+      - PYTHON_API=http://model:5000
     depends_on:
       - model
-      - runs
-    environment:
-      - MODEL_DIR=/app/runs
+    restart: always
 
   model:
     build:
       context: ./model
       dockerfile: Dockerfile
-    restart: always
-    volumes:
-      - ./runs:/app/runs
+    ports:
+      - "5000:5000"
 
   runs:
     image: python:3.12
