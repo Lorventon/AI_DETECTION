@@ -6,9 +6,13 @@ from PIL import Image
 from matplotlib import pyplot as plt
 from ultralytics import YOLO
 
+<<<<<<< HEAD
 def process_image_result():
     # Загрузка модели
     model = YOLO('../runs/segment/car_segmentation8/weights/best.pt')
+=======
+model = YOLO('../runs/segment/car_segmentation2/weights/best.pt')
+>>>>>>> 275aad7f530a21fe9b8e478962069deedce07416
 
     # Загрузка изображения
     img = cv2.imread('D:/Projects/HackInHome2024/model/test.png')
@@ -69,8 +73,14 @@ def process_image_result():
                 2
             )
 
+<<<<<<< HEAD
     # Конвертация в RGB для сохранения
     labeled_image_rgb = cv2.cvtColor(labeled_image, cv2.COLOR_BGR2RGB)
+=======
+    # Получение класса для текущей маски
+    class_index = int(classes[i])
+    class_name = "" # class_names[class_index]
+>>>>>>> 275aad7f530a21fe9b8e478962069deedce07416
 
     # Конвертация изображения в Base64
     pil_image = Image.fromarray(labeled_image_rgb)
