@@ -86,6 +86,13 @@ export const UploadImageForm: FC = () => {
           className={styles.input}
           required
         />
+        <input type="text" placeholder="Физическая площадь передней двери" />
+        <input type="text" placeholder="Ширина факела" />
+        <input
+          type="text"
+          placeholder="Вылет факела за границы элемента при одном проходе "
+        />
+        <input type="text" placeholder="Стоимость 1л ЛКМ" />
         <button className={styles.submitButton}>Отправить</button>
       </form>
     </section>

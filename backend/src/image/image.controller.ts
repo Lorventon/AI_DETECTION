@@ -20,6 +20,7 @@ export class ImageController {
       buffer: file.buffer,
       originalname: file.originalname,
     });
+    console.log(result);
     return result;
   }
 }
