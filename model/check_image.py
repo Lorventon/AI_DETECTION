@@ -5,9 +5,7 @@ import numpy as np
 
 model = YOLO('../runs/segment/car_segmentation2/weights/best.pt')
 
-# img = cv2.imread('dataset/images/train/IMG_9209.jpg')
-# TODO: Убрать абсолютный путь
-img = cv2.imread('D:/Projects/HackInHome2024/model/test.png')
+img = cv2.imread('../dataset/train/images/7958beu-960.jpg')
 
 print(img.shape)
 

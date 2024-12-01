@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76a6328f-5189-4394-b283-ab240b0ca35b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/model/calc/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/calc/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/check_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/check_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dataset/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dataset/train/images/IMG_9208.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/model/dataset/train/images/bc1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/dataset/train/images/Pasted image (6).png" beforeDir="false" afterPath="$PROJECT_DIR$/model/dataset/train/images/bc.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2pZuN3iE5QTj8HHUW8HE1E6KSAg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lorventon/PycharmProjects/HackInHome2024/model/dataset/train/images&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lorventon\PycharmProjects\HackInHome2024\model\dataset\train\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76a6328f-5189-4394-b283-ab240b0ca35b" name="Changes" comment="" />
+      <created>1732985878183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732985878183</updated>
+    </task>
+    <servers />
+  </component>
+</project>
