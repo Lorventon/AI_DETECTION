@@ -2,12 +2,12 @@
 from ultralytics import YOLO
 
 model = YOLO("yolo11s-seg.pt")
-# Запуск обучения
+
 result = model.train(
-    data='D:/Projects/HackInHome2024/model/dataset/data.yaml',       # путь к файлу конфигурации датасета
-    epochs=250,             # количество эпох обучения
-    imgsz=640,              # размер входного изображения
-    batch=16,               # размер батча
-    name='car_segmentation',# имя эксперимента
-    cache=True              # кэширование данных для ускорения
+    data='D:/Projects/HackInHome2024/model/dataset/data.yaml',
+    epochs=250,             
+    imgsz=640,              
+    batch=16,               
+    name='car_segmentation',
+    cache=True              
 )
