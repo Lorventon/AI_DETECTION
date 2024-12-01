@@ -12,7 +12,7 @@ paint_cost_per_liter = int(input())  # Стоимость 1 литра ЛКМ (�
 
 # Загрузка модели YOLO
 # Загрузка модели с использованием относительного пути
-model = YOLO('../runs/segment/car_segmentation8/weights/best.pt')
+model = YOLO('../runs/segment/car_segmentation2/weights/best.pt')
 
 # Загрузка изображения с использованием относительного пути
 img = cv2.imread('../dataset/train/images/7958beu-960.jpg')
