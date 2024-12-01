@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76a6328f-5189-4394-b283-ab240b0ca35b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/model/calc/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/calc/calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/check_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/check_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dataset/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dataset/train/images/IMG_9208.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/model/dataset/train/images/bc1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/dataset/train/images/Pasted image (6).png" beforeDir="false" afterPath="$PROJECT_DIR$/model/dataset/train/images/bc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
