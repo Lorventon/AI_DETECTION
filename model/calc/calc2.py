@@ -48,7 +48,7 @@ def calculate_paint_cost(masks, classes, class_names, front_door_area, torch_wid
     return json.dumps(elements, indent=4, ensure_ascii=False)
 
 def estimate_paint_costs():
-    model = YOLO('../../runs/segment/car_segmentation2/weights/best.pt')
+    model = YOLO('../runs/segment/car_segmentation2/weights/best.pt')
 
     img = cv2.imread('../dataset/train/images/' + input("Введите название файла фотографии модели в формате (photo.jpg): "))
 
